@@ -8,10 +8,14 @@
 [node name="PlatformBlue" type="Node2D" parent="."]
 position = Vector2( 35, 565 )
 
-[node name="StonePlatform2" parent="PlatformBlue" instance=ExtResource( 1 )]
-position = Vector2( 467.168, -128.614 )
+[node name="StonePlatform3" parent="PlatformBlue" instance=ExtResource( 1 )]
+position = Vector2( 587.468, -114.164 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="PlatformBlue"]
+[node name="StonePlatform" parent="PlatformBlue" instance=ExtResource( 1 )]
+position = Vector2( 560.793, -329.537 )
+
+[node name="StonePlatform2" parent="PlatformBlue" instance=ExtResource( 1 )]
+position = Vector2( 416.032, -178.561 )
 
 [node name="BlueShip" parent="." instance=ExtResource( 2 )]
 position = Vector2( 500.228, 69.5365 )
